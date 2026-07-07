@@ -1,233 +1,85 @@
-# AI Manufacturing Copilot
-
-> Turning manufacturing data into engineering decisions with AI.
-
-🚧 **Work in Progress**
-
-This project documents my journey from a Manufacturing Quality Engineer to an AI Builder.
-
-The goal is to develop an AI Copilot that helps manufacturing engineers analyze production data, identify abnormal trends, accelerate root cause investigation, and improve decision making.
+<div align="center">
+  <h1>🤖 AI Manufacturing Copilot</h1>
+  <p><i>AI-driven Intelligence for Next-Generation Electronics Manufacturing</i></p>
+  <p>Building intelligent systems that connect manufacturing data, engineering knowledge, and AI to accelerate the development of future smart devices.</p>
+</div>
 
 ---
 
-# Why This Project?
+## 🌟 Vision
 
-Modern manufacturing generates massive amounts of engineering data every day.
+Modern electronics manufacturing is becoming increasingly complex. Products such as wearable devices, flexible electronics, and intelligent sensors require a deeper understanding of manufacturing processes, material behaviors, product performance, and reliability factors.
 
-Although data is available, engineers still spend significant time:
+This project explores how AI can become an engineering partner by transforming manufacturing data into actionable insights:
+> **Manufacturing Data ➔ AI Intelligence ➔ Decision Support ➔ Smart Improvement**
 
-- Exporting Excel reports
-- Creating SPC charts
-- Tracking yield trends
-- Comparing dimensional data
-- Investigating process variation
-- Writing engineering summaries
+## 🧠 AI Manufacturing Intelligence Framework
 
-My vision is to build an AI assistant that can automate repetitive engineering analysis while allowing engineers to focus on solving problems.
+| Capability | Icon | Purpose |
+| :--- | :---: | :--- |
+| **Quality Intelligence** | 📊 | Monitor product performance and identify quality risks |
+| **Process Intelligence** | ⚙️ | Understand manufacturing behavior and variation |
+| **Engineering Intelligence** | 🔍 | Discover relationships between factors and outcomes |
+| **Root Cause Intelligence** | 🤖 | Assist investigation and continuous improvement |
 
----
+## 🏗 System Architecture
 
-# Vision
-
-Build an AI-powered engineering assistant that supports manufacturing throughout the product lifecycle.
-
-```text
-Concept Validation
-        │
-        ▼
-Engineering Build
-        │
-        ▼
-NPI
-        │
-        ▼
-Mass Production
-        │
-        ▼
-Continuous Improvement
+```mermaid
+graph TD
+    Data["📦 Manufacturing Data<br/>(Product | Process | Equipment | Quality)"] --> Analytics["📊 Data Analytics Layer"]
+    
+    subgraph AI Manufacturing Copilot
+        Analytics --> QI["📊 Quality Intelligence"]
+        Analytics --> PI["⚙️ Process Intelligence"]
+        Analytics --> EI["🔍 Engineering Intelligence"]
+        Analytics --> RCI["🤖 Root Cause Intelligence"]
+    end
+    
+    QI & PI & EI & RCI --> Decision["💡 Engineering Decision Support"]
+    
+    style Data fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style Decision fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px
 ```
 
----
+## 🚀 Development Roadmap
+    Phase 1
+        Foundation (Current) : ✅ Quality data analysis
+                             : ✅ Process monitoring
+                             : ✅ Statistical process intelligence
+                             : ✅ Manufacturing trend visualization
+    Phase 2
+        AI-assisted (Next)   : ⬜ Automated factor discovery
+                             : ⬜ Pattern recognition
+                             : ⬜ AI-assisted investigation
+                             : ⬜ Engineering knowledge integration
+    Phase 3
+        Future Applications  : ⬜ Wearable device manufacturing
+                             : ⬜ Flexible electronics
+                             : ⬜ Stretchable sensors
+                             : ⬜ Robotic skin systems
 
-# Current Development
+## 🔬 Prototype Direction
 
-| Module | Status |
-|----------|:------:|
-| Repository Setup | ✅ Completed |
-| Project README | ✅ Completed |
-| Project Banner | ⬜ Planned |
-| Yield Analysis | 🚧 In Progress |
-| IPQC Dimension Trend | 🚧 In Progress |
-| SPC Monitoring | 🚧 In Progress |
-| Dashboard | ⬜ Planned |
-| AI Insight Generation | ⬜ Planned |
-| Root Cause Investigation | ⬜ Planned |
-| Streamlit Web App | ⬜ Planned |
-| OpenAI Integration | ⬜ Planned |
+The initial development uses real-world manufacturing scenarios as validation cases, including:
+* Manufacturing quality analysis
+* Process behavior understanding
+* Multi-factor relationship exploration
+* Data-driven engineering investigation
 
----
+*The framework is designed to be transferable across electronics manufacturing domains.*
 
-# Engineering Problems I'm Exploring
+## 🌱 Research Vision
 
-This project focuses on practical manufacturing engineering challenges.
+Future electronics manufacturing will require more than automation. The next generation of manufacturing systems should be able to:
 
-### Quality Monitoring
+  <h5><code>Understand ➔ Analyze ➔ Predict ➔ Improve</code></h5>
 
-- Yield Analysis
-- Pareto Analysis
-- Defect Distribution
-- Production Trend
+By combining **Manufacturing Engineering + Artificial Intelligence + Data Intelligence**, this project explores a path toward intelligent manufacturing for future electronic technologies.
 
-### Statistical Process Control
+## 🛠 Technology Stack
 
-- SPC Chart
-- Cp / Cpk
-- Process Capability
-- Control Rules
-
-### Dimensional Engineering
-
-- IPQC Key Dimension Trend
-- Flatness Analysis
-- Profile Analysis
-- Gauge Stability
-
-### Root Cause Investigation
-
-- Correlation Analysis
-- Process Comparison
-- Cross-site Analysis
-- Engineering Insights
-
-### AI Applications
-
-- Engineering Report Generation
-- Data Interpretation
-- Intelligent Alerts
-- AI Manufacturing Assistant
+`Python` • `Data Analytics` • `Machine Learning` • `Large Language Models (LLM)` • `AI Agents` • `Data Visualization`
 
 ---
 
-# Tech Stack
-
-### Manufacturing
-
-- SPC
-- Yield Analysis
-- Process Capability
-- MSA
-- DOE
-- Metrology
-
-### Programming
-
-- Python *(Learning)*
-- SQL *(Planned)*
-- Git
-- GitHub
-
-### AI
-
-- OpenAI API *(Learning)*
-- LangChain *(Planned)*
-- Streamlit *(Learning)*
-
----
-
-# Roadmap
-
-## Phase 1 — Foundation
-
-- [x] Create GitHub Repository
-- [x] Build README
-- [ ] Design Project Banner
-- [ ] Create Project Architecture
-- [ ] Upload First Demo
-
----
-
-## Phase 2 — Engineering Analytics
-
-- [ ] Yield Analysis Module
-- [ ] SPC Dashboard
-- [ ] Cpk Calculation
-- [ ] IPQC Trend Analysis
-- [ ] Excel Data Import
-- [ ] Interactive Dashboard
-
----
-
-## Phase 3 — AI Copilot
-
-- [ ] OpenAI Integration
-- [ ] AI Engineering Summary
-- [ ] Root Cause Investigation
-- [ ] Engineering Q&A
-- [ ] Intelligent Recommendation
-
----
-
-## Phase 4 — Deployment
-
-- [ ] Deploy Streamlit App
-- [ ] Public Documentation
-- [ ] User Guide
-- [ ] Version 1.0 Release
-
----
-
-# Project Structure
-
-```
-AI-Manufacturing-Copilot/
-
-│
-├── data/
-├── docs/
-├── images/
-├── notebooks/
-├── src/
-│
-├── README.md
-├── requirements.txt
-└── LICENSE
-```
-
----
-
-# Demo
-
-🚧 Coming Soon
-
-Future updates will include:
-
-- Dashboard screenshots
-- AI demonstrations
-- Engineering reports
-- GIF animations
-- Video walkthroughs
-
----
-
-# Learning in Public
-
-This repository openly documents my learning journey.
-
-Rather than showcasing only finished work, I share the complete process of building an AI application for manufacturing engineering.
-
-Every milestone, experiment, challenge, and lesson learned will become part of this project.
-
----
-
-# Future Goals
-
-The long-term objective is to build an AI Manufacturing Copilot capable of helping engineers:
-
-- Understand manufacturing data
-- Detect abnormal process trends
-- Reduce engineering analysis time
-- Improve manufacturing quality decisions
-
----
-
-⭐ If you are interested in AI for Manufacturing, feel free to follow this project.
+> **🔒 Disclaimer:** This is an independent exploration project. All examples are generalized and contain no confidential information, proprietary data, or company-specific manufacturing details.
