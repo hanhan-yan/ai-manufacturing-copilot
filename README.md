@@ -1,104 +1,233 @@
-# ai-manufacturing-copilot
->Turning manufacturing data into engineering intelligence.
-An AI-native engineering platform designed to help manufacturing engineers make faster, smarter, and more consistent decisions throughout the product lifecycle.
+# AI Manufacturing Copilot
+
+> Turning manufacturing data into engineering decisions with AI.
+
+🚧 **Work in Progress**
+
+This project documents my journey from a Manufacturing Quality Engineer to an AI Builder.
+
+The goal is to develop an AI Copilot that helps manufacturing engineers analyze production data, identify abnormal trends, accelerate root cause investigation, and improve decision making.
+
+---
+
+# Why This Project?
+
+Modern manufacturing generates massive amounts of engineering data every day.
+
+Although data is available, engineers still spend significant time:
+
+- Exporting Excel reports
+- Creating SPC charts
+- Tracking yield trends
+- Comparing dimensional data
+- Investigating process variation
+- Writing engineering summaries
+
+My vision is to build an AI assistant that can automate repetitive engineering analysis while allowing engineers to focus on solving problems.
+
 ---
 
 # Vision
->Manufacturing engineers spend too much time collecting data, building spreadsheets, and preparing reports.
-The goal of this project is to transform engineering workflows by integrating manufacturing knowledge with artificial intelligence, enabling engineers to focus on solving problems instead of searching for data.
----
 
-# Engineering Workflows
-## 📊 Manufacturing Performance
+Build an AI-powered engineering assistant that supports manufacturing throughout the product lifecycle.
 
-Monitor manufacturing health across the production lifecycle.
-
-- Yield Monitoring
-- In-Process Yield Analysis
-- Final Assembly Yield Analysis
-- Manufacturing Performance Dashboard
-
----
-
-## 📈 Process Quality Monitoring
-
-Track critical process characteristics and detect abnormal trends.
-
-- IPQC Key Factor Tracking
-- Critical Factor Trend Analysis
-- SPC Monitoring
-- Process Stability Evaluation
+```text
+Concept Validation
+        │
+        ▼
+Engineering Build
+        │
+        ▼
+NPI
+        │
+        ▼
+Mass Production
+        │
+        ▼
+Continuous Improvement
+```
 
 ---
 
-## 🤖 Engineering Intelligence
+# Current Development
 
-Transform manufacturing data into actionable engineering insights.
+| Module | Status |
+|----------|:------:|
+| Repository Setup | ✅ Completed |
+| Project README | ✅ Completed |
+| Project Banner | ⬜ Planned |
+| Yield Analysis | 🚧 In Progress |
+| IPQC Dimension Trend | 🚧 In Progress |
+| SPC Monitoring | 🚧 In Progress |
+| Dashboard | ⬜ Planned |
+| AI Insight Generation | ⬜ Planned |
+| Root Cause Investigation | ⬜ Planned |
+| Streamlit Web App | ⬜ Planned |
+| OpenAI Integration | ⬜ Planned |
 
-- Root Cause Investigation
+---
+
+# Engineering Problems I'm Exploring
+
+This project focuses on practical manufacturing engineering challenges.
+
+### Quality Monitoring
+
+- Yield Analysis
+- Pareto Analysis
+- Defect Distribution
+- Production Trend
+
+### Statistical Process Control
+
+- SPC Chart
+- Cp / Cpk
+- Process Capability
+- Control Rules
+
+### Dimensional Engineering
+
+- IPQC Key Dimension Trend
+- Flatness Analysis
+- Profile Analysis
+- Gauge Stability
+
+### Root Cause Investigation
+
 - Correlation Analysis
-- Engineering Insight Generation
-- Process Risk Identification
+- Process Comparison
+- Cross-site Analysis
+- Engineering Insights
+
+### AI Applications
+
+- Engineering Report Generation
+- Data Interpretation
+- Intelligent Alerts
+- AI Manufacturing Assistant
 
 ---
 
-## 📄 Engineering Productivity
+# Tech Stack
 
-Reduce repetitive engineering work through AI assistance.
+### Manufacturing
 
-- Automated Engineering Reports
-- AI Engineering Assistant
-- Knowledge Base
-- Engineering Workflow Automation
+- SPC
+- Yield Analysis
+- Process Capability
+- MSA
+- DOE
+- Metrology
+
+### Programming
+
+- Python *(Learning)*
+- SQL *(Planned)*
+- Git
+- GitHub
+
+### AI
+
+- OpenAI API *(Learning)*
+- LangChain *(Planned)*
+- Streamlit *(Learning)*
 
 ---
 
 # Roadmap
 
-### Phase 1 — Manufacturing Analytics
+## Phase 1 — Foundation
 
-- [ ] Yield Dashboard
-- [ ] IPQC Dimension Dashboard
-- [ ] SPC Analytics
-- [ ] Process Trend Analysis
-
-### Phase 2 — Engineering Intelligence
-
-- [ ] AI Root Cause Analysis
-- [ ] Correlation Engine
-- [ ] Process Risk Prediction
-- [ ] Engineering Recommendation Engine
-
-### Phase 3 — AI Copilot
-
-- [ ] AI Engineering Chat
-- [ ] Engineering Knowledge Base
-- [ ] Automated Report Generation
-- [ ] Workflow Automation
+- [x] Create GitHub Repository
+- [x] Build README
+- [ ] Design Project Banner
+- [ ] Create Project Architecture
+- [ ] Upload First Demo
 
 ---
 
-# Design Principles
+## Phase 2 — Engineering Analytics
 
-- Engineering-first
-- AI-assisted decision making
-- Data-driven insights
-- Modular architecture
-- Privacy by design
-- Public documentation, private core implementation
-
----
-
-# Repository Structure
-
-This repository focuses on product design, documentation, demonstrations, and public examples.
-
-The production implementation, proprietary logic, and enterprise integrations are maintained separately.
+- [ ] Yield Analysis Module
+- [ ] SPC Dashboard
+- [ ] Cpk Calculation
+- [ ] IPQC Trend Analysis
+- [ ] Excel Data Import
+- [ ] Interactive Dashboard
 
 ---
 
-# Current Status
+## Phase 3 — AI Copilot
 
-🚧 Early Development
+- [ ] OpenAI Integration
+- [ ] AI Engineering Summary
+- [ ] Root Cause Investigation
+- [ ] Engineering Q&A
+- [ ] Intelligent Recommendation
 
-Building an AI-native engineering platform for the next generation of smart manufacturing.
+---
+
+## Phase 4 — Deployment
+
+- [ ] Deploy Streamlit App
+- [ ] Public Documentation
+- [ ] User Guide
+- [ ] Version 1.0 Release
+
+---
+
+# Project Structure
+
+```
+AI-Manufacturing-Copilot/
+
+│
+├── data/
+├── docs/
+├── images/
+├── notebooks/
+├── src/
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+---
+
+# Demo
+
+🚧 Coming Soon
+
+Future updates will include:
+
+- Dashboard screenshots
+- AI demonstrations
+- Engineering reports
+- GIF animations
+- Video walkthroughs
+
+---
+
+# Learning in Public
+
+This repository openly documents my learning journey.
+
+Rather than showcasing only finished work, I share the complete process of building an AI application for manufacturing engineering.
+
+Every milestone, experiment, challenge, and lesson learned will become part of this project.
+
+---
+
+# Future Goals
+
+The long-term objective is to build an AI Manufacturing Copilot capable of helping engineers:
+
+- Understand manufacturing data
+- Detect abnormal process trends
+- Reduce engineering analysis time
+- Improve manufacturing quality decisions
+
+---
+
+⭐ If you are interested in AI for Manufacturing, feel free to follow this project.
