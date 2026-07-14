@@ -4,3 +4,10 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+# 忽略所有的真实数据文件
+data/
+*.csv
+*.xlsx
+
+# 忽略 Python 虚拟环境
+venv/
